@@ -1,0 +1,25 @@
+header {
+  text-align: center;
+}
+#divide_line {
+  width: 100%;
+  overflow: hidden;
+  font-weight: bolder;
+  background-color: black;
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+}
+.section_division {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
